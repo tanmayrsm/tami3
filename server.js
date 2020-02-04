@@ -22,9 +22,9 @@ app.use( '/api/profile', profile );
 
 
 const s3 = new aws.S3({
-	accessKeyId: 'AKIARSINFC5HK7SMUQHI',
-	secretAccessKey: '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',
-	Bucket: 'my-audio-analysis'
+	accessKeyId: '',
+	secretAccessKey: '',
+	Bucket: ''
 });
 app.get('/api/hello', (req, res) => {
 	//res.send({ express: 'Hello From Express' });
