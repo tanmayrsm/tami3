@@ -20,15 +20,15 @@ mongoose.Promise = global.Promise;
  * PROFILE IMAGE STORING STARTS
  */
 const s3 = new aws.S3({
-	accessKeyId: 'AKIARSINFC5HK7SMUQHI',
-	secretAccessKey: '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',
-	Bucket: 'my-audio-analysis'
+	accessKeyId: '',
+	secretAccessKey: '',
+	Bucket: ''
 });
 
 const s3_2 = new aws.S3({
-	accessKeyId: 'AKIARSINFC5HK7SMUQHI',
-	secretAccessKey: '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',
-	Bucket: 'my-audio-comprehend'
+	accessKeyId: '',
+	secretAccessKey: '',
+	Bucket: ''
 });
 
 const profileImgUpload = multer({
